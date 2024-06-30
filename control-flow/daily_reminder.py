@@ -13,6 +13,6 @@ match priority:
         print(f'wrong text')
 
 if time_bound == 'yes':
-    print(f"{f} requires immediate attention today!")
+    print(f"Reminder: {f} requires immediate attention today!")
 elif time_bound == 'no':
-    print(f"{f}. Consider completing it when you have free time.")
+    print(f"Note: {f}. Consider completing it when you have free time.")
