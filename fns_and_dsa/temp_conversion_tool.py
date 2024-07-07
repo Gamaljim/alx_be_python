@@ -21,4 +21,4 @@ while True:
         print(f"{temperature}°F is {convert_to_celsius(temperature)}°C")
         break
     else:
-        print("invalid input")
+        print("Invalid temperature. Please enter a numeric value.")
