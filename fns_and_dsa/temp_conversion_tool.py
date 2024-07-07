@@ -14,10 +14,10 @@ while True:
     temperature = int(input("Enter the temperature to convert:"))
     specify = input("Is this temperature in Celsius or Fahrenheit? (C/F):")
     if specify == 'C':
-        print(convert_to_fahrenheit(temperature))
+        print(f"{temperature}°C is {convert_to_fahrenheit(temperature)}°F")
         break
     elif specify == 'F':
-        print(convert_to_celsius(temperature))
+        print(f"{temperature}°F is {convert_to_celsius(temperature)}°C")
         break
     else:
         print("invalid input")
