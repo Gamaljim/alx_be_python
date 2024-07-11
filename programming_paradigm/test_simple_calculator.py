@@ -18,7 +18,7 @@ class TestCal(unittest.TestCase):
         self.assertEqual(self.calc.multiply(5, 5), 25)
         self.assertEqual(self.calc.multiply(10, 5), 50)
 
-    def test_divide(self):
+    def test_division(self):
         self.assertEqual(self.calc.divide(10, 5), 2)
         self.assertIsNone(self.calc.divide(10, 0))
 
